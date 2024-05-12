@@ -31,7 +31,7 @@ include(__DIR__ . "/templates/header.php");
     <h5 class="card-header">Login</h5>
     <div class="card-body">
       <?php if ($isFailLoginAttempt) : ?>
-        <p class="pt-3 text-danger">Username atau password salah</p>
+        <p class="text-danger">Username atau password salah</p>
       <?php endif; ?>
       <form method="post">
         <div class="mb-3">
